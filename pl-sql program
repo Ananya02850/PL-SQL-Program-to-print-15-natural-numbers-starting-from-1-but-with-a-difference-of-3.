@@ -1,0 +1,11 @@
+declare     
+i int;    
+n int:=15;    
+m int:=1; begin  
+dbms_output.put_line('15 Natural numbers starting from 1 are -');    
+dbms_output.put_line(m);     
+for i in 1..n-1 LOOP
+        m:=m+3;
+        dbms_output.put_line(m);
+    end loop;
+end;
